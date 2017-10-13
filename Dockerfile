@@ -22,7 +22,6 @@ ADD startserver.sh /home/steam/steamcmd/startserver.sh
 
 ENV MAP="cp_badlands"
 ENV SV_MAXPLAYERS=12
-ENV SV_HOSTNAME="changeme"
 ENV RCON_PASSWORD="changeme"
 ENV SV_PORT=27015
 

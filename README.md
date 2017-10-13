@@ -7,11 +7,10 @@ Usage
 -----
 ```bash
 docker pull brettowen/tf2-docker-base
-docker run -it -d --network=host -v /path/to/tf:/mnt -e MAP=set_a_map -e SV_HOSTNAME="YourServerNameHere" -e SV_MAXPLAYERS=12 -e RCON_PASSWORD="ChangeThis" brettowen/tf2-docker-base
+docker run -it -d --network=host -v /path/to/tf:/mnt -e MAP=set_a_map -e SV_MAXPLAYERS=12 -e RCON_PASSWORD="ChangeThis" brettowen/tf2-docker-base
 ```
 The environment variables you can set are:
 - MAP
-- SV_HOSTNAME
 - SV_MAXPLAYERS
 - RCON_PASSWORD
 - SV_PORT
